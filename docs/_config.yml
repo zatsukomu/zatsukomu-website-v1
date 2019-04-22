@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+title: "雑コム！"
+description: "Discord サーバー"
+timezone: Japan
+url: "https://zatsukomu.tk" # the base hostname & protocol for your site
+
+plugins:
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-redirect-from
