@@ -1,3 +1,8 @@
+---
+layout: default
+title: 運営チーム
+permalink: /運営チーム
+---
 準備中
 {% for item in site.data.member.management %}
     <h3>{{ item.title }}</h3>
