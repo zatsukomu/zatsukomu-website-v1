@@ -7,6 +7,8 @@ permalink: /運営チーム
 
 準備中
 
+データの編集の場合は、[ここから](https://github.com/zatsukomu/zatsukomu.tk/blob/master/docs/_data/member.yml)
+
 {% if site.data.member.management[0] %}
   {% for item in site.data.member.management %}
 <h3>{{ item.title }}</h3>
