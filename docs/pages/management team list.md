@@ -1,11 +1,9 @@
 ---
 layout: default
-title: 運営チーム
-permalink: /運営チーム
+title: 運営チーム一覧
+permalink: /運営チーム一覧
 
 ---
-
-準備中
 
 データの編集の場合は、[ここから](https://github.com/zatsukomu/zatsukomu.tk/blob/master/docs/_data/member.yml)
 
