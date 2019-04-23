@@ -1,0 +1,52 @@
+management:
+  - title: Owner 
+    items:
+      - discordname: サロにぃ/Saroniii#9092
+        discordid: 425478444067848204
+        twitterid: saroniii_Mir
+        description: 
+        
+  - title: Sub Owner
+    items:
+      - discordname: 天性のたらし#8612
+        discordid: 555494775059382315
+        description: 
+        
+      - discordname: 葵 -あおい-#2161
+        discordid: 425478444067848204
+        twitterid: Aoichaan0513
+        description: 
+        
+      - discordname: ロウ#0993
+        discordid: 516397347593519104
+        description: 
+        
+  - title: Administration Team
+    items:
+      - discordname: FaberSid#0172
+        discordid: 520941565552754708
+        description: 
+        
+      - discordname: MELONchan#0186
+        discordid: 331413268667170820
+        description: 
+        
+      - discordname: EdeN(トム猫)#1896
+        discordid: 418040376545378314
+        description: 
+        
+  - title: Community Managers
+    items:
+      - discordname: 暇人#4278
+        discordid: 409655087674425344
+        description: Bot Helper
+        
+      - discordname: 7yultukuri7#0960
+        discordid: 352394784440320020
+        twitterid: 7yultukuri7
+        description: Community Supporter
+        
+      - discordname: PenguinLucky#4907
+        discordid: 349527453246685184
+        description: Advertising and Development Leader
+        
