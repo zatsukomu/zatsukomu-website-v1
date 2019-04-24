@@ -22,7 +22,7 @@ permalink: /運営チーム一覧
   <tr>
     <td>{{ entry.discordname }}</td>
     <td>{{ entry.discordid }}</td>
-    <td>{% if entry.discordid %}<a href="https://twitter.com/{{ entry.twitterid }}" title="{{ entry.twitterid }}">{{ entry.twitterid }}</a>{% endif %}</td>
+    <td>{% if entry.twitterid %}<a href="https://twitter.com/{{ entry.twitterid }}" title="{{ entry.twitterid }}">@{{ entry.twitterid }}</a>{% endif %}</td>
     <td>{{ entry.description }}</td>
   </tr>
           {% endfor %}
