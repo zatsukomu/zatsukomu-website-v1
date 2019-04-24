@@ -5,10 +5,10 @@ permalink: /運営チーム一覧
 
 ---
 
-データの編集の場合は、[ここから](https://github.com/zatsukomu/zatsukomu.tk/blob/master/docs/_data/member.yml)
+データの編集の場合は、[ここから](https://github.com/zatsukomu/zatsukomu.tk/blob/master/docs/_data/staff-roster.yml)
 
-{% if site.data.member.management[0] %}
-  {% for item in site.data.member.management %}
+{% if site.data.staff-roster.management[0] %}
+  {% for item in site.data.staff-roster.management %}
 <h3>{{ item.title }}</h3>
       {% if item.items[0] %}
 <table>
