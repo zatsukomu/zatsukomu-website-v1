@@ -1,10 +1,9 @@
-.404 {
-color: #fff; 
- text-align: center; 
- font-size: 3.25rem;
-background-image: url("//zatsukomu.tk/assets/img/Large-Triangles/24.svg"); 
-background-attachment: scroll; 
-background-size: auto; 
-background-repeat: repeat; 
-background-position: center;
+body {
+    color: #fff; 
+    text-align: center; 
+    background-image: url("//zatsukomu.tk/assets/img/Large-Triangles/24.svg");
+    background-attachment: scroll; 
+    background-size: auto; 
+    background-repeat: repeat; 
+    background-position: center;
 }
