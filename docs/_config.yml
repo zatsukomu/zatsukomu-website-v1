@@ -11,3 +11,9 @@ plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-redirect-from
+
+exclude:
+- Gemfile
+- CNAME
+- readme.md
+- README.md
