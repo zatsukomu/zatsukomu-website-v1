@@ -7,15 +7,10 @@ body {
 }
 .parent-404 {
     color: #fff; 
-  position: relative;
+  width: 100vw;
+  hight: 100vh;
 }
 
 .span-404 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);
-  width: 80%;
   text-align: center; !important
 }
