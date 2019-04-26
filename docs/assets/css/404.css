@@ -11,12 +11,12 @@ body {
   height: 100vh;
 }
 
-.404 {
+.span-404 {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
   width: 100px;
-  text-align: center;
+  text-align: center; !important
 }
