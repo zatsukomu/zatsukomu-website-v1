@@ -1,6 +1,6 @@
 GitHub Pagesサイト(zatsukomu.tk)は現在masterブランチの/docsフォルダから構築されています。
 
-##ファイル構造
+## ファイル構造
 
 ```sh
 .
