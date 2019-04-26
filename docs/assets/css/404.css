@@ -7,10 +7,8 @@ body {
 }
 .parent-404 {
     color: #fff; 
-  width: 100vw;
-  hight: 100vh;
-  min-width: 100vw;
-  min-hight: 100vh;
+  width: 100%;
+  hight: 100%;
 }
 
 .span-404 {
