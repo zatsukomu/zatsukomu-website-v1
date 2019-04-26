@@ -1,5 +1,4 @@
 body {
-    color: #fff; 
     background-image: url("https://zatsukomu.tk/assets/img/Large-Triangles/24.svg");
     background-attachment: scroll; 
     background-size: auto; 
@@ -7,6 +6,7 @@ body {
     background-position: center;
 }
 .parent-404 {
+    color: #fff; 
   position: relative;
   height: 100vh;
 }
