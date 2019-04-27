@@ -19,6 +19,7 @@ plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-archives
 
 exclude:
 - Gemfile
