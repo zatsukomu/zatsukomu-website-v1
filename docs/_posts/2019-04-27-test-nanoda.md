@@ -1,9 +1,7 @@
 ---
 layout: simple
 title:  "テスト!!"
-categories: 
-- test
-- テスト
+categories: [test,テスト]
 tags: post
 ---
 
