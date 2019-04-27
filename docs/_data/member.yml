@@ -1,66 +1,67 @@
-member:
-      - discordname: サロにぃ/Saroniii#9092
-        discordid: 425478444067848204
-        
-      - discordname: 天性のたらし#8612
-        discordid: 555494775059382315
-        
-      - discordname: 葵 -あおい-#2161
-        discordid: 478947064546459648
-        
-      - discordname: ロウ#0993
-        discordid: 516397347593519104
-        
-      - discordname: FaberSid#0172
-        discordid: 520941565552754708
-        
-      - discordname: MELONchan#0186
-        discordid: 331413268667170820
-        
-      - discordname: "EdeN(トム猫)#1896"
-        discordid: 418040376545378314
-        
-      - discordname: 暇人#4278
-        discordid: 409655087674425344
-        
-      - discordname: 7yultukuri7#0960
-        discordid: 352394784440320020
-        
-      - discordname: PenguinLucky#4907
-        discordid: 349527453246685184
-        
-      - discordname: 暇人村長きずき / kizuki1749#1749
-        discordid: 333559514445905920
-        
-      - discordname: ボム兵#1803
-        discordid: 426301126841991169
-        
-      - discordname: RuliaChan#5298
-        discordid: 350796206449885186
-        
-      - discordname: beryllium002#4020
-        discordid: 560621477033017345
-        
-      - discordname: ZEN#3967
-        discordid: 515671337608413194
-        
-      - discordname: 1MATU9RYO#7175
-        discordid: 534679510386475018
-        
-      - discordname: ひで#3531
-        discordid: 530036058050658316
-        
-      - discordname: "Acoustic1638（あこ）#7308"
-        discordid: 441457756604727306
-    
-      - discordname: 煌星しゃす#0001
-        discordid: 356023700778385408
-    
-      - discordname: Mamenoki#4749
-        discordid: 491418194762792961
-    
-      - discordname: "€en$ØleÐ#0402"
-        discordid: 533547797060780052
-    
-      - discordname: maki0911#2442
-        discordid: 420125572455202817
+member: 
+  - 
+    discordid: 425478444067848204
+    discordname: "サロにぃ/Saroniii#9092"
+  - 
+    discordid: 555494775059382315
+    discordname: "天性のたらし#8612"
+  - 
+    discordid: 478947064546459648
+    discordname: "葵 -あおい-#2161"
+  - 
+    discordid: 516397347593519104
+    discordname: "ロウ#0993"
+  - 
+    discordid: 520941565552754708
+    discordname: "FaberSid#0172"
+  - 
+    discordid: 331413268667170820
+    discordname: "MELONchan#0186"
+  - 
+    discordid: 418040376545378314
+    discordname: "EdeN(トム猫)#1896"
+  - 
+    discordid: 409655087674425344
+    discordname: "暇人#4278"
+  - 
+    discordid: 352394784440320020
+    discordname: "7yultukuri7#0960"
+  - 
+    discordid: 349527453246685184
+    discordname: "PenguinLucky#4907"
+  - 
+    discordid: 333559514445905920
+    discordname: "暇人村長きずき / kizuki1749#1749"
+  - 
+    discordid: 426301126841991169
+    discordname: "ボム兵#1803"
+  - 
+    discordid: 350796206449885186
+    discordname: "RuliaChan#5298"
+  - 
+    discordid: 560621477033017345
+    discordname: "beryllium002#4020"
+  - 
+    discordid: 515671337608413194
+    discordname: "ZEN#3967"
+  - 
+    discordid: 534679510386475018
+    discordname: "1MATU9RYO#7175"
+  - 
+    discordid: 530036058050658316
+    discordname: "ひで#3531"
+  - 
+    discordid: 441457756604727306
+    discordname: "Acoustic1638（あこ）#7308"
+  - 
+    discordid: 356023700778385408
+    discordname: "煌星しゃす#0001"
+  - 
+    discordid: 491418194762792961
+    discordname: "Mamenoki#4749"
+  - 
+    discordid: 533547797060780052
+    discordname: "€en$ØleÐ#0402"
+  - 
+    discordid: 420125572455202817
+    discordname: "maki0911#2442"
