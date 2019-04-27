@@ -37,3 +37,6 @@ exclude:
 - CNAME
 - readme.md
 - README.md
+- /assets/img/README.md
+- /assets/img/Large-Triangles/README.md
+- /assets/css/README.md
