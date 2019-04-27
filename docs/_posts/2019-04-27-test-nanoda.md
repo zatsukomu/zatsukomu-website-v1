@@ -1,8 +1,7 @@
 ---
 layout: simple
 title:  "テスト!!"
-categories: ['test','テスト']
-tags: ['post']
+categories: ['test','test2']
 ---
 
 バグや不具合などないかのテストです。
