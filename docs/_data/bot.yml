@@ -28,7 +28,8 @@ bot:
 
       - discordname: @[m!]Manager 
         discordid: 345612130122334209
-- discordname: @[t!&t@]Tatsumaki 
+
+      - discordname: @[t!&t@]Tatsumaki 
         discordid: 172002275412279296
 
       - discordname: @Automaid 
@@ -57,7 +58,7 @@ bot:
 
       - discordname: @フリーカテゴリーBot 
         discordid: 547950576621846558
-
+        
       - discordname: @暇人が運営する暇人のためのBot 
         discordid: 505729900540461057
 
@@ -66,3 +67,45 @@ bot:
 
       - discordname: @[>]Rythm 2 
         discordid: 252128902418268161
+
+       - discordname: @AvaIre 
+        discordid: 275270122082533378
+
+      - discordname: @[!aki]Aki 
+        discordid: 356065937318871041
+
+      - discordname: @[!S]syoch 
+        discordid: 555683877775998987
+
+      - discordname: @[!t]*進化した*初めて成功したBOT 
+        discordid: 500580866448293899
+
+      - discordname: @[::]TAO 
+        discordid: 526620171658330112
+
+      - discordname: @[b!]Box Bot 
+        discordid: 413728456942288896
+
+      - discordname: @[h!]Hex 
+        discordid: 361796552165031936
+
+      - discordname: @[m!]Discord Miner 
+        discordid: 492969308201418756
+
+      - discordname: @CoinMaster 
+        discordid: 346140550069747713
+
+      - discordname: @Dank Memer 
+        discordid: 270904126974590976
+
+      - discordname: @HIMA 
+        discordid: 455630360810618880
+
+      - discordname: @R. Danny 
+        discordid: 80528701850124288
+
+      - discordname: @[#.] 結月 -ゆづき- 
+        discordid: 553841194699063319
+
+      - discordname: @[m!]Member Count 
+        discordid: 432533456807919639
