@@ -12,6 +12,16 @@ defaults:
     values:
       layout: simple
 
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'simple'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
 plugins:
   - jekyll-seo-tag
   - jemoji
