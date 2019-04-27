@@ -1,5 +1,5 @@
 ---
-title:  "テスト!!"
+title:  "テスト"
 categories: [test,test2]
 ---
 
