@@ -8,8 +8,8 @@ google_analytics: UA-138579216-2
 
 defaults:
   - scope:
-      path: _posts # an empty string here means all files in the project
-      type: posts # previously `post` in Jekyll 2.2.
+      path: "_posts" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: simple
 
