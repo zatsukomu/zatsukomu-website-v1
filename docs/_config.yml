@@ -5,6 +5,13 @@ timezone: Japan
 lang : ja
 url: "https://zatsukomu.tk" # the base hostname & protocol for your site
 
+defaults:
+  - scope:
+      path: _posts # an empty string here means all files in the project
+      type: posts # previously `post` in Jekyll 2.2.
+    values:
+      layout: simple
+
 plugins:
   - jekyll-seo-tag
   - jemoji
