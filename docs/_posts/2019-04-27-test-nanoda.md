@@ -1,6 +1,6 @@
 ---
-title:  "テスト"
-categories: [test,test2]
+title: "テスト"
+categories: [test]
 ---
 
 バグや不具合などないかのテストです。
