@@ -6,19 +6,6 @@ lang : ja
 url: "https://zatsukomu.tk" # the base hostname & protocol for your site
 google_analytics: UA-138579216-2
 
-
-# Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled: all
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-    tag: '/tag/:name/'
-
 plugins:
   - jekyll-seo-tag
   - jemoji
@@ -26,7 +13,6 @@ plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-archives
 
 exclude:
 - Gemfile
