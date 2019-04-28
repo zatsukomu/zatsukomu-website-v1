@@ -6,20 +6,16 @@ lang : ja
 url: "https://zatsukomu.tk" # the base hostname & protocol for your site
 google_analytics: UA-138579216-2
 
-defaults:
-  - scope:
-      path: "_posts" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      layout: simple
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
+  enabled: all
+  layout: archive
   permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
     category: '/category/:name/'
     tag: '/tag/:name/'
 
