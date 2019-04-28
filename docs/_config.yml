@@ -5,6 +5,7 @@ timezone: Japan
 lang : ja
 url: "https://zatsukomu.tk" # the base hostname & protocol for your site
 google_analytics: UA-138579216-2
+discord_invite: "https://discord.gg/VWpRe9y"
 
 plugins:
   - jekyll-seo-tag
