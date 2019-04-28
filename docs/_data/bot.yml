@@ -1,111 +1,111 @@
 bot:
-      - discordname: "@DISBOARD"
-        discordid: 302050872383242240
+-discordname: "DISBOARD"
+discordid: 302050872383242240
 
-      - discordname: "@Discordちゃんねる(β)"
-        discordid: 324829950639341568
+-discordname: "Discordちゃんねる(β)"
+discordid: 324829950639341568
 
-      - discordname: "@[F!] 普通ちゃん"
-        discordid: 541087201040269342
+-discordname: "[F!]普通ちゃん"
+discordid: 541087201040269342
 
-      - discordname: "@[!rp]役職パネルBOT"
-        discordid: 542980279455973378
+-discordname: "[!rp]役職パネルBOT"
+discordid: 542980279455973378
 
-      - discordname: "@[.]Nadeko"
-        discordid: 116275390695079945
+-discordname: "[.]Nadeko"
+discordid: 116275390695079945
 
-      - discordname: "@[/]Simple Poll"
-        discordid: 324631108731928587
+-discordname: "[/]SimplePoll"
+discordid: 324631108731928587
 
-      - discordname: "@[>>]Vortex"
-        discordid: 240254129333731328
+-discordname: "[>>]Vortex"
+discordid: 240254129333731328
 
-      - discordname: "@[c!]Carl-bot" 
-        discordid: 235148962103951360
+-discordname: "[c!]Carl-bot"
+discordid: 235148962103951360
 
-      - discordname: "@[i!]Invite Manager" 
-        discordid: 409875566800404480
+-discordname: "[i!]InviteManager"
+discordid: 409875566800404480
 
-      - discordname: "@[m!]Manager" 
-        discordid: 345612130122334209
+-discordname: "[m!]Manager"
+discordid: 345612130122334209
 
-      - discordname: "@[t!&t@]Tatsumaki" 
-        discordid: 172002275412279296
+-discordname: "[t!&t]Tatsumaki"
+discordid: 172002275412279296
 
-      - discordname: "@Automaid" 
-        discordid: 488060245739044896
+-discordname: "Automaid"
+discordid: 488060245739044896
 
-      - discordname: "@Auttaja" 
-        discordid: 242730576195354624
+-discordname: "Auttaja"
+discordid: 242730576195354624
 
-      - discordname: "@Dyno" 
-        discordid: 155149108183695360
+-discordname: "Dyno"
+discordid: 155149108183695360
 
-      - discordname: "@Insight+" 
-        discordid: 548423175872970764
+-discordname: "Insight+"
+discordid: 548423175872970764
 
-      - discordname: "@InviteManager Alpha" 
-        discordid: 412380586737664020
+-discordname: "InviteManagerAlpha"
+discordid: 412380586737664020
 
-      - discordname: "@InviteManager Pro" 
-        discordid: 424962553429622796
+-discordname: "InviteManagerPro"
+discordid: 424962553429622796
 
-      - discordname: "@reminder-bot" 
-        discordid: 349920059549941761
+-discordname: "reminder-bot"
+discordid: 349920059549941761
 
-      - discordname: "@UnbelievaBoat" 
-        discordid: 292953664492929025
+-discordname: "UnbelievaBoat"
+discordid: 292953664492929025
 
-      - discordname: "@フリーカテゴリーBot" 
-        discordid: 547950576621846558
-        
-      - discordname: "@暇人が運営する暇人のためのBot" 
-        discordid: 505729900540461057
+-discordname: "フリーカテゴリーBot"
+discordid: 547950576621846558
 
-      - discordname: "@[!]Rythm" 
-        discordid: 235088799074484224
+-discordname: "暇人が運営する暇人のためのBot"
+discordid: 505729900540461057
 
-      - discordname: "@[>]Rythm 2" 
-        discordid: 252128902418268161
+-discordname: "[!]Rythm"
+discordid: 235088799074484224
 
-       - discordname: "@AvaIre" 
-        discordid: 275270122082533378
+-discordname: "[>]Rythm2"
+discordid: 252128902418268161
 
-      - discordname: "@[!aki]Aki" 
-        discordid: 356065937318871041
+-discordname: "AvaIre"
+discordid: 275270122082533378
 
-      - discordname: "@[!S]syoch"
-        discordid: 555683877775998987
+-discordname: "[!aki]Aki"
+discordid: 356065937318871041
 
-      - discordname: "@[!t]*進化した*初めて成功したBOT" 
-        discordid: 500580866448293899
+-discordname: "[!S]syoch"
+discordid: 555683877775998987
 
-      - discordname: "@[::]TAO" 
-        discordid: 526620171658330112
+-discordname: "[!t]*進化した*初めて成功したBOT"
+discordid: 500580866448293899
 
-      - discordname: "@[b!]Box Bot" 
-        discordid: 413728456942288896
+-discordname: "[::]TAO"
+discordid: 526620171658330112
 
-      - discordname: "@[h!]Hex" 
-        discordid: 361796552165031936
+-discordname: "[b!]BoxBot"
+discordid: 413728456942288896
 
-      - discordname: "@[m!]Discord Miner" 
-        discordid: 492969308201418756
+-discordname: "[h!]Hex"
+discordid: 361796552165031936
 
-      - discordname: "@CoinMaster" 
-        discordid: 346140550069747713
+-discordname: "[m!]DiscordMiner"
+discordid: 492969308201418756
 
-      - discordname: "@Dank Memer" 
-        discordid: 270904126974590976
+-discordname: "CoinMaster"
+discordid: 346140550069747713
 
-      - discordname: "@HIMA" 
-        discordid: 455630360810618880
+-discordname: "DankMemer"
+discordid: 270904126974590976
 
-      - discordname: "@R. Danny" 
-        discordid: 80528701850124288
+-discordname: "HIMA"
+discordid: 455630360810618880
 
-      - discordname: "@[#.] 結月 -ゆづき-" 
-        discordid: 553841194699063319
+-discordname: "R.Danny"
+discordid: 80528701850124288
 
-      - discordname: "@[m!]Member Count" 
-        discordid: 432533456807919639
+-discordname: "[#.]結月-ゆづき-"
+discordid: 553841194699063319
+
+-discordname: "[m!]MemberCount"
+discordid: 432533456807919639
