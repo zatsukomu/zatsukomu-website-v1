@@ -18,18 +18,7 @@
   </head>
   <body>
 
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">雑コム！</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+{% include fontawesome5.html %}
 
   <div class="container">
     <div class="section">
@@ -37,8 +26,6 @@
   <header class="post-header">
     <h1 class="post-title"><i class="fas fa-fw fa-tag" style="margin-left: -5%;vertical-align: -0.1em;"></i>{{ page.title }}</h1>
   </header>
-
-  {% include page_divider.html %}
 
   <article class="post-content">
     <ul class="posts-list">
