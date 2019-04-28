@@ -6,11 +6,11 @@ permalink: /category/test
 {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
   <ul>
-{% if category.test %}
     {% for post in category[1] %}
+{% if test in category %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%F" }}</li>
-    {% endfor %}
 {% endif %}
+    {% endfor %}
   </ul>
 {% endfor %}
  
