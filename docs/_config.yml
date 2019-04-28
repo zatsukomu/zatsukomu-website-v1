@@ -7,6 +7,20 @@ url: "https://zatsukomu.tk" # the base hostname & protocol for your site
 google_analytics: UA-138579216-2
 discord_invite: "https://discord.gg/VWpRe9y"
 
+
+collections:
+  posts:
+    permalink: "/post/:year/:month/:day/:title/"
+    output: true
+
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: simple
+
+
 plugins:
   - jekyll-seo-tag
   - jemoji
