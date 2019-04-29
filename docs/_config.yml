@@ -28,6 +28,7 @@ plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-twitter-plugin
 
 exclude:
 - Gemfile
