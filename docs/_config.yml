@@ -18,7 +18,7 @@ defaults:
     path: _posts
     type: posts
   values:
-    layout: archive
+    layout: post
 
 
 plugins:
