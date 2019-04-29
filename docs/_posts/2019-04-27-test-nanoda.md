@@ -10,7 +10,7 @@ categories:
   <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
   <!-- Modal Structure -->
-  <div id="modal1" class="modal bottom-sheet">
+  <div id="modal1" class="modal bottom-sheet discord blue">
     <div class="modal-content">
       <h4>Modal Header</h4>
       <p>A bunch of text</p>
@@ -20,3 +20,6 @@ categories:
     </div>
   </div>
           
+
+  <a onclick="M.toast({html: 'I am a toast'})" class="btn">Toast!</a>
+        
