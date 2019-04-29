@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "ja" }}">
   <head>
-
-{% include google_analytics.html %}
-{% include fontawesome5.html %}
-    <meta charset="UTF-8">
-
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://zatsukomu.tk/assets/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://zatsukomu.tk/assets/css/style2.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://zatsukomu.tk/assets/css/discordcolor.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+{% include head.html %}
 </head>
 
   <body class="discord dark white-text">
-
 
 {% include nav.html %}
 
@@ -47,11 +33,6 @@
   </div>
 
 {% include footer.html %}
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://zatsukomu.tk/assets/js/materialize.min.js"></script>
-  <script src="https://zatsukomu.tk/assets/js/init.js"></script>
-
+{% include scripts.html %}
   </body>
 </html>
