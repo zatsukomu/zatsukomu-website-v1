@@ -1,6 +1,8 @@
 ---
 title: "テスト"
-categories: [test]
+categories: 
+  - test
+  - test2
 ---
 
 
