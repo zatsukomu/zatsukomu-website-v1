@@ -23,7 +23,7 @@
             {% if page.categories.size > 0 %}
             <i class="fas fa-fw fa-tag"></i>
             {% for cat in page.categories %}
-            {% if forloop.last == false %}, {% endif %} {% else %}
+            {{ cat }}{% if forloop.last == false %}, {% endif %} {% else %}
             <span>{{ cat | capitalize }}</span>{% if forloop.last == false %}, {% endif %} {% endfor %} {% endif %}
           </div>
         
