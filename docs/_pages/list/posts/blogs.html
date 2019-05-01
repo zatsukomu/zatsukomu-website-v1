@@ -1,0 +1,14 @@
+---
+layout: default
+title: "ポストリスト"
+permalink: /post/news
+---
+
+  <ul>
+  {% for post in site.posts %}
+    {% if post.blogs %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%F" }}</li>
+
+  {% endif %}
+{% endfor %}
+  </ul>
