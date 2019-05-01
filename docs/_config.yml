@@ -9,17 +9,37 @@ discord_invite: "https://discord.gg/VWpRe9y"
 
 
 collections:
-  posts:
-    permalink: "/post/:year/:month/:day/:title/"
+  pages:
     output: true
+  posts:
+    output: true
+    permalink: "/post/:year/:month/:day/:title/"
 
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-
+  - scope:
+      path: _posts/news
+      type: posts
+    values:
+      layout: post
+      posttype: news
+      posttype_url: /news
+      posttype_name: "お知らせ"
+  - scope:
+      path: "_posts/blog"
+      type: "posts"
+    values:
+      layout: post
+      posttype: blog
+      posttype_url: /blogs
+      posttype_name: "記事"
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: default
+      posttype: page
+      posttype_url: /pages
+      posttype_name: "記事"
 
 plugins:
   - jekyll-seo-tag
