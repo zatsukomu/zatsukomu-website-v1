@@ -37,15 +37,14 @@ defaults:
       permalink: "/post/blog/:year/:month/:day/:title/"
 
   - scope:
-      path: "_posts/page"
-      type: "posts"
+      path: "pages"
+      type: "pages"
     values:
       layout: default
       posttype: page
       posttype_url: /pages
       posttype_name: "ページ"
       pages: true
-      permalink: /:title
 
 plugins:
   - jekyll-seo-tag
