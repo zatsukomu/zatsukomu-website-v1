@@ -37,13 +37,13 @@ defaults:
       permalink: "/post/blog/:year/:month/:day/:title/"
 
   - scope:
-      path: "_pages"
+      path: "_posts/page"
       type: "posts"
     values:
       layout: default
       posttype: page
       posttype_url: /pages
-      posttype_name: "記事"
+      posttype_name: "ページ"
       pages: true
 
 plugins:
