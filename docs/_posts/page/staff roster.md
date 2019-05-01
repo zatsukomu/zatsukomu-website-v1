@@ -2,7 +2,7 @@
 layout: default
 title: 運営チーム一覧
 permalink: /運営チーム一覧
-tags: スタッフ
+tags: "スタッフ"
 ---
 
 データの編集の場合は、[ここから](https://github.com/zatsukomu/zatsukomu.tk/blob/master/docs/_data/staff-roster.yml)
