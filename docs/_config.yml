@@ -24,6 +24,7 @@ defaults:
       posttype: news
       posttype_url: /news
       posttype_name: "お知らせ"
+      news: true
   - scope:
       path: "_posts/blog"
       type: "posts"
@@ -32,6 +33,7 @@ defaults:
       posttype: blog
       posttype_url: /blogs
       posttype_name: "記事"
+      blogs: true
   - scope:
       path: "_pages"
       type: "pages"
@@ -40,6 +42,7 @@ defaults:
       posttype: page
       posttype_url: /pages
       posttype_name: "記事"
+      pages: true
 
 plugins:
   - jekyll-seo-tag
