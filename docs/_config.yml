@@ -37,7 +37,7 @@ defaults:
       permalink: "/post/blog/:year/:month/:day/:title/"
 
   - scope:
-      path: "pages"
+      path: "_pages"
       type: "pages"
     values:
       layout: default
