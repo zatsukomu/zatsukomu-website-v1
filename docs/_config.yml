@@ -45,6 +45,7 @@ defaults:
       posttype_url: /pages
       posttype_name: "ページ"
       pages: true
+      permalink: /:title
 
 plugins:
   - jekyll-seo-tag
