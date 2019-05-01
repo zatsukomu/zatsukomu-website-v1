@@ -3,14 +3,11 @@ layout: default
 title: カテゴリリスト2
 permalink: /posts/news
 ---
-
-{% for category in site.categories %}
-  {% unless post.blogs == true %}
-  <h3>{{ category[0] }}</h3>
   <ul>
-    {% for post in category[1] %}
+  {% for post in site.posts %}
+    {% if post.tips %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%F" }}</li>
-    {% endfor %}
-  </ul>
-  {% endunless %}
+
+  {% endif %}
 {% endfor %}
+  </ul>
