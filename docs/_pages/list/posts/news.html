@@ -5,7 +5,7 @@ permalink: /posts/news
 ---
   <ul>
   {% for post in site.posts %}
-    {% if post.tips %}
+    {% if post.news %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%F" }}</li>
 
   {% endif %}
