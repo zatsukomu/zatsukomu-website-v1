@@ -20,7 +20,7 @@ defaults:
     values:
       layout: post
       posttype: news
-      posttype_url: /news
+      posttype_url: post/news
       posttype_name: "お知らせ"
       news: true
       permalink: "/post/news/:year/:month/:day/:title/"
@@ -31,7 +31,7 @@ defaults:
     values:
       layout: post
       posttype: blog
-      posttype_url: /blogs
+      posttype_url: post/blogs
       posttype_name: "記事"
       blogs: true
       permalink: "/post/blog/:year/:month/:day/:title/"
