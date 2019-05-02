@@ -1,10 +1,13 @@
 ---
 layout: default
-title: 運営チーム一覧
-permalink: /運営チーム一覧
+title: スタッフチームリスト
+permalink: /スタッフチームリスト
+redirect_from:
+  - /スタッフチーム一覧
+  - /運営チームリスト
+  - /運営チーム一覧
+  - /staff-roster
 ---
-
-データの編集の場合は、[ここから](https://github.com/zatsukomu/zatsukomu.tk/blob/master/docs/_data/staff-roster.yml)
 
 {% if site.data.staff-roster.management[0] %}
   {% for item in site.data.staff-roster.management %}
