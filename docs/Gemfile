@@ -6,7 +6,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'jekyll-mentions'
   gem 'jekyll-feed'
   gem 'jekyll-redirect-from'
 end
