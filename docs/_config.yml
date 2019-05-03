@@ -51,6 +51,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jemoji
 
 exclude:
 - Gemfile
