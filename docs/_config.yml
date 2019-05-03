@@ -52,6 +52,10 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jemoji
+  - jekyll-mentions
+
+jekyll-mentions:
+  base_url: https://zatsukomu.tk/user
 
 exclude:
 - Gemfile
