@@ -50,7 +50,6 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-sitemap
-  - jekyll-mentions
   - jekyll-feed
   - jekyll-redirect-from
 
