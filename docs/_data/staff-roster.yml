@@ -1,125 +1,88 @@
 management:
   - title: Owner 
     items:
-      - discordname: サロにぃ/Saroniii#9092
+     - discordname: "薊組❀Nävy#9092"
         discordid: 425478444067848204
-        twitterid: saroniii_Mir
-        description: OP
         
   - title: Sub Owner
     items:
-      - discordname: 東雲#8612
-        discordid: 555494775059382315
-        description: "Economy Moderator, Support"
-        
-      - discordname: 恋葉ちゃん#0932
+     - discordname: "あおい#0932"
         discordid: 508919483440693294
-        twitterid: KoibaChan
-        description: "CO Owner, Economy Moderator, Support"
-        
-      - discordname: りら#0993
+     - discordname: "薊組❀Ränä#0993"
         discordid: 516397347593519104
-        description: "Economy Moderator, Support"
-        
-  - title: Administration Team
-    items:
-      - discordname: FaberSid#0172
-        discordid: 520941565552754708
-        description: "Economy Moderator, Support"
-        
-      - discordname: MELONchan#0186
-        discordid: 331413268667170820
-        description: "Economy Moderator, Support"
-        
-      - discordname: にゃぁ#1896
+     - discordname: "葵 -あおい-#2161"
+        discordid: 478947064546459648
+     - discordname: "pikatyuu power#2940"
+        discordid: 542919088389750784
+     - discordname: "にゃぁ#1896"
         discordid: 418040376545378314
-        description: "Economy Moderator, Support"
         
-      - discordname: aowudhauwhd#6419
-        discordid: 574166391071047694
-        description: "Economy Moderator, Support"
-        
-  - title: Community Managers
+  - title: Admin
     items:
-      - discordname: マイナー次郎_minerjirou#2627
-        discordid: 371462088448802817
-        description: "Economy Moderator, Support"
+     - discordname: "活動停止中(雑談系はします)/Sid#6419"
+        discordid: 574166391071047694
+     - discordname: "FaberSid#0172"
+        discordid: 520941565552754708
         
-      - discordname: 7yultukuri7#0960
-        discordid: 352394784440320020
-        twitterid: 7yultukuri7
-        description: "Economy Moderator, Support"
-        
-      - discordname: PenguinLucky#4907
-        discordid: 349527453246685184
-        description: "Economy Moderator, Support"
-        
-      - discordname: ( 'ω')#8244
-        discordid: 483830266054311942
-        description: "Economy Moderator, Support"
+  - title: Server Dev
+    items:
+     - discordname: "(´・ω・｀)#4571"
+        584422213898469417
+     - discordname: "PenguinLucky#4907"
+        349527453246685184
+     - discordname: "あおい#0932"
+        508919483440693294
+     - discordname: "MELONchan#0186"
+        331413268667170820
+     - discordname: "7yultukuri7#0960"
+        352394784440320020
+     - discordname: "薊組❀Nävy#9092"
+        425478444067848204
+     - discordname: "陽:dizzy:Alf#8895"
+        569746300833234945
+     - discordname: "( 'ω')#82444"
+        83830266054311942
+     - discordname: "薊組❀Ränä#0993"
+        516397347593519104
+     - discordname: "獄殺のRenix#6121"
+        451313704575959043
+     - discordname: "活動停止中(雑談系はします)/Sid#6419"
+        574166391071047694
+     - discordname: "FaberSid#0172"
+        520941565552754708
+     - discordname: "pikatyuu power#2940"
+        542919088389750784
+     - discordname: "にゃぁ#1896"
+        418040376545378314
         
   - title: Senior Moderator
     items:
-      - discordname: Bom#6383
-        discordid: 426301126841991169
-        twitterid: kizuki1749
-        description: "Economy Moderator, Support"
-        
-      - discordname: 暇人#0334
-        discordid: 409655087674425344
-        description: "Economy Moderator, Support"
-        
-      - discordname: 竹＠Take#5558
-        discordid: 263603891138985984
-        description: none
-        
-      - discordname: 暇人村長きずき / kizuki1749#1749
+     - discordname: "マイナー次郎_Minerjirou#2627"
+        discordid: 371462088448802817
+     - discordname: "暇人村長きずき / kizuki1749#1749"
         discordid: 333559514445905920
-        twitterid: kizuki1749
-        description: "Economy Moderator, Support"
+     - discordname: "Bom#6383"
+        discordid: 426301126841991169
+     - discordname: "陽:dizzy:Alf#8895"
+        discordid: 569746300833234945
+     - discordname: "beryllium_jp#4020"
+        discordid: 560621477033017345
+     - discordname: "がーねっと#9502"
+        discordid: 495511715425812481
+     - discordname: "ヒマジン#0334"
+        discordid: 409655087674425344
+     - discordname: "竹＠Take#5558"
+        discordid: 263603891138985984
         
   - title: MOD
     items:
-      - discordname: beryllium_jp#4020
-        discordid: 560621477033017345
-        twitterid: 0015Beryllium
-        description: Support
-        
-      - discordname: ZEN#3967
-        discordid: 515671337608413194
-        twitterid: zenkei_126
-        description: Support
-        
-      - discordname: 陽ちゃん#8895
-        discordid: 569746300833234945
-        description: Support
-        
-  - title: MOD(Rookie)
-    items:
-      - discordname: "[経凛々製作所]くま#8895"
-        discordid: 467247154742951936
-        description: none
-        
-      - discordname: maki0911#2442
-        discordid: 420125572455202817
-        description: none
-        
-      - discordname: Sustina#0600
-        discordid: 299909215366152193
-        description: none
-        
-      - discordname: がーねっと＃9502
+     - discordname: "薊組❀Nävy#9092"
+        discordid: 425478444067848204
+     - discordname: "がーねっと#9502"
         discordid: 495511715425812481
-        description: none
-        
-      - discordname: きり#4835
-        discordid: 460622920591474688
-        description: none
-        
-      - discordname: ノア#8061
-        discordid: 460787965921198080
-        description: none
-        
-      - discordname: YUUKI#0540
+     - discordname: "zen#2164"
+        discordid: 515671337608413194
+     - discordname: "YUUKI#0540"
         discordid: 542086827633278997
-        description: none
+     - discordname: "maki0911#2442"
+        discordid: 420125572455202817
