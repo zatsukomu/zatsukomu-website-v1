@@ -17,15 +17,11 @@ redirect_from:
   <tbody><tr>
     <th>Discordユーザー</th>
     <th>Discordid</th>
-    <th>Twitter</th>
-    <th>説明</th>
   </tr>
           {% for entry in item.items %}
   <tr>
     <td>{{ entry.discordname }}</td>
     <td>{{ entry.discordid }}</td>
-    <td>{% if entry.twitterid %}<a href="https://twitter.com/{{ entry.twitterid }}" title="{{ entry.twitterid }}">@{{ entry.twitterid }}</a>{% endif %}</td>
-    <td>{{ entry.description }}</td>
   </tr>
           {% endfor %}
       {% endif %}
