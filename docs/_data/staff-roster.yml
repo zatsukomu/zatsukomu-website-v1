@@ -1,88 +1,125 @@
-management:
-  - title: Owner 
-    items:
-     - discordname: "薊組❀Nävy#9092"
+--- 
+management: 
+  - 
+    items: 
+      - 
         discordid: 425478444067848204
-        
-  - title: Sub Owner
-    items:
-     - discordname: "あおい#0932"
+        discordname: "薊組❀Nävy#9092"
+    title: Owner
+  - 
+    items: 
+      - 
         discordid: 508919483440693294
-     - discordname: "薊組❀Ränä#0993"
+        discordname: "あおい#0932"
+      - 
         discordid: 516397347593519104
-     - discordname: "葵 -あおい-#2161"
+        discordname: "薊組❀Ränä#0993"
+      - 
         discordid: 478947064546459648
-     - discordname: "pikatyuu power#2940"
+        discordname: "葵 -あおい-#2161"
+      - 
         discordid: 542919088389750784
-     - discordname: "にゃぁ#1896"
+        discordname: "pikatyuu power#2940"
+      - 
         discordid: 418040376545378314
-        
-  - title: Admin
-    items:
-     - discordname: "活動停止中(雑談系はします)/Sid#6419"
+        discordname: "にゃぁ#1896"
+    title: "Sub Owner"
+  - 
+    items: 
+      - 
         discordid: 574166391071047694
-     - discordname: "FaberSid#0172"
+        discordname: "活動停止中(雑談系はします)/Sid#6419"
+      - 
         discordid: 520941565552754708
-        
-  - title: Server Dev
-    items:
-     - discordname: "(´・ω・｀)#4571"
-        584422213898469417
-     - discordname: "PenguinLucky#4907"
-        349527453246685184
-     - discordname: "あおい#0932"
-        508919483440693294
-     - discordname: "MELONchan#0186"
-        331413268667170820
-     - discordname: "7yultukuri7#0960"
-        352394784440320020
-     - discordname: "薊組❀Nävy#9092"
-        425478444067848204
-     - discordname: "陽:dizzy:Alf#8895"
-        569746300833234945
-     - discordname: "( 'ω')#82444"
-        83830266054311942
-     - discordname: "薊組❀Ränä#0993"
-        516397347593519104
-     - discordname: "獄殺のRenix#6121"
-        451313704575959043
-     - discordname: "活動停止中(雑談系はします)/Sid#6419"
-        574166391071047694
-     - discordname: "FaberSid#0172"
-        520941565552754708
-     - discordname: "pikatyuu power#2940"
-        542919088389750784
-     - discordname: "にゃぁ#1896"
-        418040376545378314
-        
-  - title: Senior Moderator
-    items:
-     - discordname: "マイナー次郎_Minerjirou#2627"
-        discordid: 371462088448802817
-     - discordname: "暇人村長きずき / kizuki1749#1749"
-        discordid: 333559514445905920
-     - discordname: "Bom#6383"
-        discordid: 426301126841991169
-     - discordname: "陽:dizzy:Alf#8895"
-        discordid: 569746300833234945
-     - discordname: "beryllium_jp#4020"
-        discordid: 560621477033017345
-     - discordname: "がーねっと#9502"
-        discordid: 495511715425812481
-     - discordname: "ヒマジン#0334"
-        discordid: 409655087674425344
-     - discordname: "竹＠Take#5558"
-        discordid: 263603891138985984
-        
-  - title: MOD
-    items:
-     - discordname: "薊組❀Nävy#9092"
+        discordname: "FaberSid#0172"
+    title: Admin
+  - 
+    items: 
+      - 
+        discordid: 584422213898469417
+        discordname: "(´・ω・｀)#4571"
+      - 
+        discordid: 349527453246685184
+        discordname: "PenguinLucky#4907"
+      - 
+        discordid: 508919483440693294
+        discordname: "あおい#0932"
+      - 
+        discordid: 331413268667170820
+        discordname: "MELONchan#0186"
+      - 
+        discordid: 352394784440320020
+        discordname: "7yultukuri7#0960"
+      - 
         discordid: 425478444067848204
-     - discordname: "がーねっと#9502"
+        discordname: "薊組❀Nävy#9092"
+      - 
+        discordid: 569746300833234945
+        discordname: "陽:dizzy:Alf#8895"
+      - 
+        discordid: 83830266054311942
+        discordname: "( 'ω')#82444"
+      - 
+        discordid: 516397347593519104
+        discordname: "薊組❀Ränä#0993"
+      - 
+        discordid: 451313704575959043
+        discordname: "獄殺のRenix#6121"
+      - 
+        discordid: 574166391071047694
+        discordname: "活動停止中(雑談系はします)/Sid#6419"
+      - 
+        discordid: 520941565552754708
+        discordname: "FaberSid#0172"
+      - 
+        discordid: 542919088389750784
+        discordname: "pikatyuu power#2940"
+      - 
+        discordid: 418040376545378314
+        discordname: "にゃぁ#1896"
+    title: "Server Dev"
+  - 
+    items: 
+      - 
+        discordid: 371462088448802817
+        discordname: "マイナー次郎_Minerjirou#2627"
+      - 
+        discordid: 333559514445905920
+        discordname: "暇人村長きずき / kizuki1749#1749"
+      - 
+        discordid: 426301126841991169
+        discordname: "Bom#6383"
+      - 
+        discordid: 569746300833234945
+        discordname: "陽:dizzy:Alf#8895"
+      - 
+        discordid: 560621477033017345
+        discordname: "beryllium_jp#4020"
+      - 
         discordid: 495511715425812481
-     - discordname: "zen#2164"
+        discordname: "がーねっと#9502"
+      - 
+        discordid: 409655087674425344
+        discordname: "ヒマジン#0334"
+      - 
+        discordid: 263603891138985984
+        discordname: "竹＠Take#5558"
+    title: "Senior Moderator"
+  - 
+    items: 
+      - 
+        discordid: 425478444067848204
+        discordname: "薊組❀Nävy#9092"
+      - 
+        discordid: 495511715425812481
+        discordname: "がーねっと#9502"
+      - 
         discordid: 515671337608413194
-     - discordname: "YUUKI#0540"
+        discordname: "zen#2164"
+      - 
         discordid: 542086827633278997
-     - discordname: "maki0911#2442"
+        discordname: "YUUKI#0540"
+      - 
         discordid: 420125572455202817
+        discordname: "maki0911#2442"
+    title: MOD
