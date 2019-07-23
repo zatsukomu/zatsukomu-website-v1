@@ -1,21 +1,21 @@
 <div class="discord-message">
 <div class="discord-author-avatar">
-<img src="{{ include.avater | default: /assets/img/avatar/discord-blue.svg}}" alt="{{ include.username | default: username}}"></div>
+<img src="{{ include.avater | default: /assets/img/avatar/discord-blue.svg }}" alt="{{ include.username | default: username }}"></div>
 <div class="discord-message-content">
 <div>
 <span class="discord-author-info">
 <span class="discord-author-username"><font style="vertical-align: inherit;">
-        {{ include.username | default: username}}
+        {{ include.username | default: username }}
 </font></span>
 {% if include.bot %}
 <span class="discord-bot-tag"><font style="vertical-align: inherit;">{{ include.bot }}</font></span>
 {% endif %}</span>
 <span class="discord-message-timestamp"><font style="vertical-align: inherit;">
-        {{ include.timestamp | default: timestamp}}
+        {{ include.timestamp | default: timestamp }}
 </font></span>
 </div>
 <div class="discord-message-body"><font style="vertical-align: inherit;"> 
-        {{ include.content | default: content}}
+        {{ include.content | default: content }}
 </font></div>
 <!--   embed   -->
 <div class="discord-embed">
@@ -27,12 +27,12 @@
 {% if include.embed-author %}
 <div class="discord-embed-author">
 {% if include.embed-author-image %}
-<img src="{% include.embed-author-image" alt="" class="discord-author-image">
+<img src="{{ include.embed-author-image }}" alt="" class="discord-author-image">
 {% endif %}
 {% if include.embed-author-link %}
-<a href="{% include.embed-author-link %}" target="_blank">
+<a href="{{ include.embed-author-link }}" target="_blank">
 {% endif %}
-        {% include.embed-author-content %}
+        {{ include.embed-author-content }}
 {% if include.embed-author-link %}
 </a>
 {% endif %}</div>
@@ -42,59 +42,59 @@
 {% if include.embed-title %}
 <div class="discord-embed-title">
 {% if include.embed-title-link %}
-<a href="{% include.embed-title-link %}" target="_blank">
+<a href="{{ include.embed-title-link }}" target="_blank">
 {% endif %}
-	{% include.embed-title %}
+	{{ include.embed-title }}
 {% if include.embed-title-link %}
 </a>
 {% endif %}</div>
 <div class="discord-embed-description">
-	{% include.embed-title-content %}
+	{{ include.embed-title-content }}
 </div> 
 {% endif %}
 
       <!--   embed-description   -->
 <div class="discord-embed-description"><div class="discord-embed-fields">
 {% if include.embed-field-title1 %}
-<div class="discord-embed-field	{% if include.embed-inline-field1 %}discord-inline-field{% endif %}">
-<div class="discord-field-title">{% include.embed-field-title1 | default: embed-field-title1 %}</div>{% include.embed-field-content1 | default: embed-field-content1 %}</div>
+<div class="discord-embed-field	{{ if include.embed-inline-field1 }}discord-inline-field{% endif %}">
+<div class="discord-field-title">{{ include.embed-field-title1 | default: embed-field-title1 }}</div>{{ include.embed-field-content1 | default: embed-field-content1 }}</div>
 {% endif %} 
 {% if include.embed-field-title2 %}
 <div class="discord-embed-field	{% if include.embed-inline-field2 %}discord-inline-field{% endif %}">
-<div class="discord-field-title">{% include.embed-field-title2 | default: embed-field-title2 %}</div>{% include.embed-field-content2 | default: embed-field-content2 %}</div>
+<div class="discord-field-title">{{ include.embed-field-title2 | default: embed-field-title2 }}</div>{{ include.embed-field-content2 | default: embed-field-content2 }}</div>
 {% endif %} 
 {% if include.embed-field-title3 %}
 <div class="discord-embed-field	{% if include.embed-inline-field3 %}discord-inline-field{% endif %}">
-<div class="discord-field-title">{% include.embed-field-title3 | default: embed-field-title3 %}</div>{% include.embed-field-content3 | default: embed-field-content3 %}</div>
+<div class="discord-field-title">{{ include.embed-field-title3 | default: embed-field-title3 }}</div>{{ include.embed-field-content3 | default: embed-field-content3 }}</div>
 {% endif %} 
 {% if include.embed-field-title4 %}
 <div class="discord-embed-field	{% if include.embed-inline-field4 %}discord-inline-field{% endif %}">
-<div class="discord-field-title">{% include.embed-field-title4 | default: embed-field-title4 %}</div>{% include.embed-field-content4 | default: embed-field-content4 %}</div>
+<div class="discord-field-title">{{ include.embed-field-title4 | default: embed-field-title4 }}</div>{{ include.embed-field-content4 | default: embed-field-content4 }}</div>
 {% endif %} 
 {% if include.embed-field-title5 %}
 <div class="discord-embed-field	{% if include.embed-inline-field5 %}discord-inline-field{% endif %}">
-<div class="discord-field-title">{% include.embed-field-title5 | default: embed-field-title5 %}</div>{% include.embed-field-content5 | default: embed-field-content5 %}</div>
+<div class="discord-field-title">{{ include.embed-field-title5 | default: embed-field-title5 }}</div>{{ include.embed-field-content5 | default: embed-field-content5 }}</div>
 {% endif %} 
 </div></div>
 </div>
 {% if include.embed-image %}
-<img src="{% include.embed-image %}" alt="" class="discord-embed-image"></div>
+<img src="{{ include.embed-image }}" alt="" class="discord-embed-image"></div>
 {% endif %}
 {% if include.embed-thumbnail %}
-<img src="{% include.embed-thumbnail %}" alt="" class="discord-embed-thumbnail"></div>
+<img src="{{ include.embed-thumbnail }}" alt="" class="discord-embed-thumbnail"></div>
 {% endif %}
 
       <!--   embed-footer   -->
 <div class="discord-embed-footer">
 {% if include.embed-footer-image %}
-<img src="{% include.embed-footer-image %}" alt="" class="discord-footer-image"></div>
+<img src="{{ include.embed-footer-image }}" alt="" class="discord-footer-image"></div>
 {% endif %}
 {% if include.embed-footer-content %}
-<span>{% include.embed-footer-content %}</span>
+<span>{{ include.embed-footer-content }}</span>
 {% endif %}
 <span class="discord-footer-separator">•</span>
-{% if include.embed-footer-timestamp %}
-{% include.embed-footer-timestamp %}
+{% if include.embed-footer-timestamp }}
+{{ include.embed-footer-timestamp %}
 {% endif %}
 <span>
 </span></span></div>
