@@ -12,12 +12,16 @@ redirect_from:
     <th>Discordユーザー</th>
     <th>Discordid</th>
   </tr>
-          {% for entry in site.data.member.members %}
+  {% for item in site.data.member.members %}
+      {% if item.items[0] %}
+          {% for entry in item.members %}
   <tr>
     <td>{{ entry.discordname }}</td>
     <td>{{ entry.discordid }}</td>
   </tr>
           {% endfor %}
+      {% endif %}
+   {% endfor %}
       </tbody></table>
 {% endif %}
 
