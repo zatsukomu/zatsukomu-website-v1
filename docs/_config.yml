@@ -24,7 +24,6 @@ defaults:
       posttype_name: "お知らせ"
       news: true
       permalink: "/post/news/:year/:month/:day/:title/"
-      categories: "news"
 
   - scope:
       path: "_posts/blog"
@@ -36,7 +35,6 @@ defaults:
       posttype_name: "記事"
       blogs: true
       permalink: "/post/blog/:year/:month/:day/:title/"
-      categories: "blog"
 
   - scope:
       path: "_pages"
