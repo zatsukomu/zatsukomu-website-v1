@@ -1,18 +1,52 @@
 <div class="discord-message">
 <div class="discord-author-avatar">
-<img src="{{ include.avater }}" alt="{{ include.username }}"></div>
+<img src="{{ include.avater | default: /assets/img/avatar/discord-blue.svg}}" alt="{{ include.username | default: username}}"></div>
 <div class="discord-message-content">
 <div>
 <span class="discord-author-info">
 <span class="discord-author-username"><font style="vertical-align: inherit;">
-        {{ include.username }}
+        {{ include.username | default: username}}
 </font></span>
 <span class="discord-bot-tag"><font style="vertical-align: inherit;">{{ include.bot }}</font></span></span>
 <span class="discord-message-timestamp"><font style="vertical-align: inherit;">
-        {{ include.timestamp }}
+        {{ include.timestamp | default: timestamp}}
 </font></span>
 </div>
 <div class="discord-message-body"><font style="vertical-align: inherit;"> 
-        {{ include.content }}
+        {{ include.content | default: content}}
 </font></div>
+<div class="discord-embed">
+<div class="discord-left-border" style="{{ include.color | default: background-color: rgb(0, 153, 255); }}"></div>
+<div class="discord-embed-container">
+<div class="discord-embed-content"><div>
+{% if include.embed-author %}
+<div class="discord-embed-author">
+{% if include.embed-author-image %}
+<img src="{% include.embed-author-image" alt="" class="discord-author-image">
+{% endif %}
+{% if include.embed-author-link %}
+<a href="{% include.embed-author-link %}" target="_blank">
+{% endif %}
+        {% include.embed-author-content %}
+</a></div>
+{% endif %}
+<div class="discord-embed-title"><a href="https://discord.js.org/" target="_blank">
+						Some title
+					</a></div> <div class="discord-embed-description">
+			Some description here
+			<div class="discord-embed-fields"><div class="discord-embed-field"><div class="discord-field-title">Regular field title</div> 
+					Some value here
+				</div> <div class="discord-embed-field"><div class="discord-field-title">&#8203;</div> 
+					&#8203;
+				</div> <div class="discord-embed-field discord-inline-field"><div class="discord-field-title">Inline field title</div> 
+					Some value here
+				</div> <div class="discord-embed-field discord-inline-field"><div class="discord-field-title">Inline field title</div> 
+					Some value here
+				</div> <div class="discord-embed-field discord-inline-field"><div class="discord-field-title">Inline field title</div> 
+					Some value here
+				</div></div> </div>  <img src="https://i.imgur.com/wSTFkRM.png" alt="" class="discord-embed-image"></div> <img src="https://i.imgur.com/wSTFkRM.png" alt="" class="discord-embed-thumbnail"></div> <div class="discord-embed-footer"><img src="https://i.imgur.com/wSTFkRM.png" alt="" class="discord-footer-image"> <span><span>Some footer text here</span> <span class="discord-footer-separator">
+					•
+				</span> <span>
+					01/01/2018
+				</span></span></div></div></div>
 </div></div>
