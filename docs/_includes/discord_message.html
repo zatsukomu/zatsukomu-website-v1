@@ -1,18 +1,18 @@
 <div class="discord-message">
 <div class="discord-author-avatar">
-<img src="{{ include.avater }}" alt="{{ include.username }}"></div>
+<img src="{{ include.avater | default: /assets/img/avatar/discord-blue.svg}}" alt="{{ include.username | default: username}}"></div>
 <div class="discord-message-content">
 <div>
 <span class="discord-author-info">
 <span class="discord-author-username"><font style="vertical-align: inherit;">
-        {{ include.username }}
+        {{ include.username | default: username}}
 </font></span>
 <span class="discord-bot-tag"><font style="vertical-align: inherit;">{{ include.bot }}</font></span></span>
 <span class="discord-message-timestamp"><font style="vertical-align: inherit;">
-        {{ include.timestamp }}
+        {{ include.timestamp | default: timestamp}}
 </font></span>
 </div>
 <div class="discord-message-body"><font style="vertical-align: inherit;"> 
-        {{ include.content }}
+        {{ include.content | default: content}}
 </font></div>
 </div></div>
