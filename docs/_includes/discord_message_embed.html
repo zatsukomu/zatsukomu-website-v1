@@ -55,7 +55,26 @@
 
       <!--   embed-description   -->
 <div class="discord-embed-description"><div class="discord-embed-fields">
-	{% include.embed-field %}
+{% if include.embed-field-title1 %}
+<div class="discord-embed-field	{% if include.embed-inline-field1 %}discord-inline-field{% endif %}">
+<div class="discord-field-title">{% include.embed-field-title1 | default: embed-field-title1 %}</div>{% include.embed-field-content1 | default: embed-field-content1 %}</div>
+{% endif %} 
+{% if include.embed-field-title2 %}
+<div class="discord-embed-field	{% if include.embed-inline-field2 %}discord-inline-field{% endif %}">
+<div class="discord-field-title">{% include.embed-field-title2 | default: embed-field-title2 %}</div>{% include.embed-field-content2 | default: embed-field-content2 %}</div>
+{% endif %} 
+{% if include.embed-field-title3 %}
+<div class="discord-embed-field	{% if include.embed-inline-field3 %}discord-inline-field{% endif %}">
+<div class="discord-field-title">{% include.embed-field-title3 | default: embed-field-title3 %}</div>{% include.embed-field-content3 | default: embed-field-content3 %}</div>
+{% endif %} 
+{% if include.embed-field-title4 %}
+<div class="discord-embed-field	{% if include.embed-inline-field4 %}discord-inline-field{% endif %}">
+<div class="discord-field-title">{% include.embed-field-title4 | default: embed-field-title4 %}</div>{% include.embed-field-content4 | default: embed-field-content4 %}</div>
+{% endif %} 
+{% if include.embed-field-title5 %}
+<div class="discord-embed-field	{% if include.embed-inline-field5 %}discord-inline-field{% endif %}">
+<div class="discord-field-title">{% include.embed-field-title5 | default: embed-field-title5 %}</div>{% include.embed-field-content5 | default: embed-field-content5 %}</div>
+{% endif %} 
 </div></div>
 </div>
 {% if include.embed-image %}
