@@ -1,0 +1,29 @@
+---
+layout: simple
+title: @everyone
+permalink: /user/everyone
+redirect_from:
+  - /bot/everyone
+date: 2019-05-03
+---            
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content black-text">
+          <span class="card-title">@everyone</span><br>
+          <p>サーバーに参加していて、 @everyone を許可しているユーザーにメッセージが送信されます。</p>
+        </div>
+      </div>
+    </div><!--
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-content black-text">
+          <span class="card-title">ボット説明</span><br>
+          <p>ユーザーの色の変えるボットです。<br>
+使い方は#役職の色替え♻で、h!change (英語での色表記)と入力するだけです！<br>
+その後色が表示されてリアクションが出るので、行いたい作業を押してください。</p>
+        </div>
+      </div>
+    </div>-->
+  </div>
+            
