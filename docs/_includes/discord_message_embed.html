@@ -56,7 +56,7 @@
       <!--   embed-description   -->
 <div class="discord-embed-description"><div class="discord-embed-fields">
 {% if include.embed-field-title1 %}
-<div class="discord-embed-field	{{ if include.embed-inline-field1 }}discord-inline-field{% endif %}">
+<div class="discord-embed-field	{% if include.embed-inline-field1 %}discord-inline-field{% endif %}">
 <div class="discord-field-title">{{ include.embed-field-title1 | default: embed-field-title1 }}</div>{{ include.embed-field-content1 | default: embed-field-content1 }}</div>
 {% endif %} 
 {% if include.embed-field-title2 %}
