@@ -7,7 +7,9 @@
 <span class="discord-author-username"><font style="vertical-align: inherit;">
         {{ include.username | default: username}}
 </font></span>
-<span class="discord-bot-tag"><font style="vertical-align: inherit;">{{ include.bot }}</font></span></span>
+{% if include.bot %}
+<span class="discord-bot-tag"><font style="vertical-align: inherit;">{{ include.bot }}</font></span>
+{% endif %}</span>
 <span class="discord-message-timestamp"><font style="vertical-align: inherit;">
         {{ include.timestamp | default: timestamp}}
 </font></span>
