@@ -14,9 +14,11 @@
         {{ include.timestamp | default: timestamp }}
 </font></span>
 </div>
+{% if include.content %}
 <div class="discord-message-body"><font style="vertical-align: inherit;"> 
         {{ include.content | default: "content" }}
 </font></div>
+{% endif %}
 <!--   embed   -->
 <div class="discord-embed">
 <div class="discord-left-border" style="background-color: {{ include.embed-color | default: #0099ff; }}"></div>
@@ -85,6 +87,7 @@
 {% endif %}
 
       <!--   embed-footer   -->
+{% if include.embed-footer-content %}
 <div class="discord-embed-footer">
 {% if include.embed-footer-image %}
 <img src="{{ include.embed-footer-image }}" alt="" class="discord-footer-image"></div>
@@ -95,6 +98,7 @@
 <span class="discord-footer-separator">•</span>
 {% if include.embed-footer-timestamp }}
 {{ include.embed-footer-timestamp %}
+{% endif %}
 {% endif %}
 <span>
 </span></span></div>
