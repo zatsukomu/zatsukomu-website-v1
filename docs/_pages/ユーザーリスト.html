@@ -1,0 +1,23 @@
+---
+layout: default
+title: ユーザーリスト
+permalink: /ユーザーリスト
+redirect_from:
+  - /user-list
+---
+
+{% if site.data.member %}
+<table>
+  <tbody><tr>
+    <th>Discordユーザー</th>
+    <th>Discordid</th>
+  </tr>
+          {% for entry in member %}
+  <tr>
+    <td>{{ entry.discordname }}</td>
+    <td>{{ entry.discordid }}</td>
+  </tr>
+          {% endfor %}
+      </tbody></table>
+{% endif %}
+
