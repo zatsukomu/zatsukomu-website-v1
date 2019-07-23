@@ -55,33 +55,29 @@
 
       <!--   embed-description   -->
 <div class="discord-embed-description"><div class="discord-embed-fields">
-<div class="discord-embed-field"><div class="discord-field-title">Regular field title</div> 
-					Some value here
-				</div> 
-<div class="discord-embed-field"><div class="discord-field-title">&#8203;</div> 
-					&#8203;
-				</div> 
-<div class="discord-embed-field discord-inline-field"><div class="discord-field-title">Inline field title</div> 
-					Some value here
-				</div> 
-<div class="discord-embed-field discord-inline-field"><div class="discord-field-title">Inline field title</div> 
-					Some value here
-				</div> 
-<div class="discord-embed-field discord-inline-field"><div class="discord-field-title">Inline field title</div> 
-					Some value here
-				</div>
-</div>
-
+	{% include.embed-embed-field %}
 </div></div>
-<img src="https://i.imgur.com/wSTFkRM.png" alt="" class="discord-embed-image"></div>
-<img src="https://i.imgur.com/wSTFkRM.png" alt="" class="discord-embed-thumbnail"></div>
+</div>
+{% if include.embed-image %}
+<img src="{% include.embed-image %}" alt="" class="discord-embed-image"></div>
+{% endif %}
+{% if include.embed-thumbnail %}
+<img src="{% include.embed-thumbnail %}" alt="" class="discord-embed-thumbnail"></div>
+{% endif %}
 
       <!--   embed-footer   -->
 <div class="discord-embed-footer">
-<img src="https://i.imgur.com/wSTFkRM.png" alt="" class="discord-footer-image"><span>
-<span>Some footer text here</span>
+{% if include.embed-footer-image %}
+<img src="{% include.embed-footer-image %}" alt="" class="discord-footer-image"></div>
+{% endif %}
+{% if include.embed-footer-content %}
+<span>{% include.embed-footer-content %}</span>
+{% endif %}
 <span class="discord-footer-separator">•</span>
+{% if include.embed-footer-timestamp %}
+{% include.embed-footer-timestamp %}
+{% endif %}
 <span>
-01/01/2018
-</span></span></div></div></div>
+</span></span></div>
+</div></div>
 </div></div>
