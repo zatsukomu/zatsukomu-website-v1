@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: @everyone
+title: "@everyone"
 permalink: /user/everyone
 redirect_from:
   - /bot/everyone
