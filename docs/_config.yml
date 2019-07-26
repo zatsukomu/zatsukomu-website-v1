@@ -65,3 +65,6 @@ exclude:
 - /assets/img/README.md
 - /assets/img/Large-Triangles/README.md
 - /assets/css/README.md
+- /assets/favicons/README.md
+- /assets/js/README.md
+- /assets/video/README.md
