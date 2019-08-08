@@ -10,6 +10,7 @@
 	"orientation":		"any",
         "dir": 			"ltr",
         "lang": 		"ja-jp",
+	"display":"standalone",
 	"icons": [
 		{
 			"src": "/assets/favicons/android-chrome-36x36.png",
