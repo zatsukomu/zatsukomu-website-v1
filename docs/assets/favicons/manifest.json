@@ -7,7 +7,6 @@
 	"orientation":		"any",
 	"background_color":	"#2c2f33",
 	"theme_color":		"#2c2f33",
-	"orientation":		"any",
         "dir": 			"ltr",
         "lang": 		"ja-jp",
 	"display":"standalone",
