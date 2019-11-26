@@ -1,2 +1,2 @@
-># zatsukomu.tk
-[雑コム！公式サイト](https://zatsukomu.tk)の旧サイトです。
+># zatsukomu.tk-v1
+[雑コム！公式サイト](https://zatsukomu.tk)の**旧サイト**です。
